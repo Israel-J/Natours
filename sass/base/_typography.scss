@@ -60,7 +60,10 @@
 
   @include respond(phone) {
     font-size: 2.5rem;
+    padding: 5rem 0;
   }
+
+  
 
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
